@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply bg-slate-100 dark:bg-[#07111f];
+}
+
+body {
+  @apply font-sans text-slate antialiased dark:text-slate-100;
+  min-height: 100vh;
+  background-image: radial-gradient(circle at top left, rgba(59,130,246,0.12), transparent 28%),
+    linear-gradient(135deg, rgba(248,250,252,0.95), rgba(248,250,252,1));
+}
+
+html.dark body {
+  background-image: radial-gradient(circle at top left, rgba(59,130,246,0.1), transparent 28%),
+    linear-gradient(135deg, rgba(15,23,42,0.92), rgba(2,6,23,1));
+}
+
+.mono {
+  @apply font-mono;
+}
+
+/* §7.6 Print CSS */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  @page {
+    size: A4;
+    margin: 15mm;
+  }
+  html,
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
+
+.print-only {
+  display: none;
+}

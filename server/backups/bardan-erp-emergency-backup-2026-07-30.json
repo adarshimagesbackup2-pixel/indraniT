@@ -1,0 +1,115 @@
+{
+  "exportedAt": "2026-07-30T06:42:10.942Z",
+  "exportScope": {
+    "from": null,
+    "to": null
+  },
+  "customers": [
+    {
+      "id": "b3c08126-3950-4f8a-9e03-c338e205e14a",
+      "name": "Demo Customer",
+      "phone": "8888888888",
+      "address": "123 Demo Road, Nashik, Maharashtra",
+      "gstin": null,
+      "trademarkName": "Demo Traders",
+      "openingBalance": "0",
+      "openingBalanceType": "DEBIT",
+      "creditLimit": "50000",
+      "isActive": true,
+      "createdAt": "2026-07-29T22:38:45.054Z",
+      "updatedAt": "2026-07-29T22:39:18.672Z",
+      "stateCode": "27",
+      "pincode": "422010",
+      "shipToAddress": null,
+      "shipToGstin": null,
+      "shipToPincode": null,
+      "shipToStateCode": null,
+      "isBlacklisted": false,
+      "blacklistReason": null,
+      "blacklistedAt": null,
+      "blacklistedById": null
+    }
+  ],
+  "bags": [
+    {
+      "id": "4a43f704-9187-4acb-962b-431eda3d566a",
+      "bagType": "Jute Bardan",
+      "defaultRate": "18.5",
+      "currentStock": 5000,
+      "lowStockThreshold": 1000,
+      "hsnCode": "6305",
+      "isActive": true,
+      "createdAt": "2026-07-29T22:32:42.517Z",
+      "updatedAt": "2026-07-29T22:32:42.517Z",
+      "gstRate": "5",
+      "unitOfMeasure": "BAG"
+    },
+    {
+      "id": "c61082c1-9bcc-450c-bec9-43fc60b5d89f",
+      "bagType": "Leno Mesh Bag",
+      "defaultRate": "9.75",
+      "currentStock": 8000,
+      "lowStockThreshold": 2000,
+      "hsnCode": "3923",
+      "isActive": true,
+      "createdAt": "2026-07-29T22:32:42.521Z",
+      "updatedAt": "2026-07-29T22:32:42.521Z",
+      "gstRate": "5",
+      "unitOfMeasure": "BAG"
+    },
+    {
+      "id": "6759804b-68a5-4426-9e59-ebee16a10a8e",
+      "bagType": "HDPE Woven Bag",
+      "defaultRate": "12",
+      "currentStock": 3000,
+      "lowStockThreshold": 1500,
+      "hsnCode": "3923",
+      "isActive": true,
+      "createdAt": "2026-07-29T22:32:42.524Z",
+      "updatedAt": "2026-07-29T22:32:42.524Z",
+      "gstRate": "5",
+      "unitOfMeasure": "BAG"
+    }
+  ],
+  "transports": [
+    {
+      "id": "8c381553-4984-4777-89e9-c2b94dadf875",
+      "vehicleNo": "MH15AB1234",
+      "driverName": "Ramesh Patil",
+      "driverPhone": "9876543210",
+      "isActive": true,
+      "createdAt": "2026-07-29T22:32:42.527Z"
+    }
+  ],
+  "orders": [],
+  "orderItems": [],
+  "ledger": [],
+  "stockLogs": [],
+  "reminders": [],
+  "settings": {
+    "id": "singleton",
+    "businessName": "Indrani Traders",
+    "businessGstin": null,
+    "businessAddress": "MIDC Industrial Area, Nashik, Maharashtra",
+    "businessPhone": "9999999999",
+    "whatsappTemplate": "Dear {customer_name}, your pending balance for Bardan Onion Bags as of {current_date} is Rs.{balance_amount}. Kindly settle this at your earliest convenience. Thank you - {business_name}.",
+    "gstEnabledDefault": false,
+    "cgstPercent": "2.5",
+    "sgstPercent": "2.5",
+    "ewayThreshold": "50000",
+    "reminderDayOfMonth": 1,
+    "updatedAt": "2026-07-29T22:32:42.513Z",
+    "businessPincode": null,
+    "businessStateCode": null,
+    "businessAddressLine1": null,
+    "businessAddressLine2": null,
+    "businessPlace": null,
+    "turnoverAboveFiveCr": false,
+    "defaultTransportMode": "ROAD",
+    "defaultTransportationReason": "SUPPLY",
+    "ewayThresholdIntrastate": "100000",
+    "ewayThresholdInterstate": "50000",
+    "numberingMode": "AUTO",
+    "financialYearStartMonth": 4
+  }
+}

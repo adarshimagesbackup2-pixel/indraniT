@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: indraniT
+    env: node
+    rootDir: .
+    buildCommand: npm install && npm run build
+    startCommand: npm run start --workspace=server
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: DATABASE_URL
+        sync: false
+      - key: JWT_ACCESS_SECRET
+        generateValue: true
+      - key: JWT_REFRESH_SECRET
+        generateValue: true
+      - key: CLIENT_ORIGIN
+        value: https://your-app-domain.com

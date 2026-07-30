@@ -1,0 +1,15 @@
+{
+  "name": "@bardan/shared",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./validation/index.ts",
+  "types": "./validation/index.ts",
+  "exports": {
+    ".": "./validation/index.ts",
+    "./validation/*": "./validation/*.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
