@@ -2,18 +2,18 @@
   "compilerOptions": {
     "target": "ES2022",
     "module": "commonjs",
-    "moduleResolution": "node",
+    
     "lib": ["ES2022"],
     "outDir": "dist",
     "rootDir": "..",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    "strict": false,
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "declaration": false,
     "sourceMap": true,
-    "baseUrl": ".",
+    
     "paths": {
       "@bardan/shared/*": ["../shared/*"]
     }
